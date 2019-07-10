@@ -1,8 +1,11 @@
-testPlan:
-- Run IGB with the folllowing params
+TEST PLAN:
+- Run IGAccountAutomator with the folllowing params
+
+
 
 PARAMS:
 1.)
+
 
 
 RESULTS:

@@ -1,6 +1,26 @@
 README:
-This project is my first attempt at creating a more comprehensive look at Instagram automation. The main purpose of this
-project is to create an easy to understand automation toolkit that can be built on and improved.
+This project aims to create an easy to understand automation toolkit for Instagram that can be collaboratively built on
+and improved.
+
+
+
+FUNCTIONALITY:
+- Like from:
+    + Hashtag
+    + Location
+    + File
+- Comment from:
+    + Hashtag
+    + Location
+    + File
+- Follow from:
+    + Hashtag
+    + Location
+    + File
+- Unfollow users that:
+    + You recently followed
+    + You recently followed and didn't follow you back
+
 
 
 REQUIREMENTS (PIP INSTALL):
@@ -11,59 +31,9 @@ REQUIREMENTS (PIP INSTALL):
 - https://github.com/jacexh/pyautoit/archive/master.zip
 
 
-TO DO:
-- TODO: Figure out when/which hrefs I pass into all my level 2 methods
-- TODO: Get rid of command line option
-- TODO: Change the way that the main object is created (to the way that IGAccountCurator does it)
-- Create test plan
-- Do test scripts
-- Make a master file that keeps track of every person followed from upload files
-- Make a master file of users from upload file that followed you back
-- Add more locations to resolve locations method
-
-
-LEVEL ONE METHOD STATUS:
-hashtagMethod:
-- Working
-- Converted (need to clean up last half)
-
-locationMethod:
-- Working
-- Converted (need to clean up last half)
-
-fileMethod:
-- Working
-- Converted (need to clean up last half)
-
-combomashMethod:
-- Working
-
-checkForFollowing:
-- Working
-
-LEVEL TWO METHOD STATUS:
-likePics:
-- Working
-
-commentPics:
-- Working
-
-followUsers:
-- Working
-
-unfollowUsers:
-- Working
-
-compareHrefs:
-- Working
-
-
-
-
 
 PARAMETER STRUCTURE:
 "username" "password" "sourceType" "sourceParamsSepBy|" "numberOfActions" "actionVariance" "actionsString" "commentsSepBy|"
-
 
 username: User intstagram username
 password: User instagram password
@@ -85,6 +55,17 @@ corresponds to the following actions:
     + 4: Unfollowing
 commentsSepBy|: A list of all of the comments you wan to with '|' in between each comment
 
-
 EXAMPLES:
 "coppenmor" "Chicago2019!" 2 "fitness|chicago|health" 10 2 "ynnn" "Great post!|Love it!|Cool"
+
+
+
+TO DO:
+- TODO: Figure out when/which hrefs I pass into all my level 2 methods
+- TODO: Get rid of command line option
+- TODO: Change the way that the main object is created (to the way that IGAccountCurator does it)
+- Create test plan
+- Do test scripts
+- Make a master file that keeps track of every person followed from upload files
+- Make a master file of users from upload file that followed you back
+- Add more locations to resolve locations method
