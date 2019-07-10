@@ -15,7 +15,7 @@ TO DO:
 - TODO: Figure out when/which hrefs I pass into all my level 2 methods
 - TODO: Get rid of command line option
 - TODO: Change the way that the main object is created (to the way that IGAccountCurator does it)
-- Create test script
+- Create test plan
 - Do test scripts
 - Make a master file that keeps track of every person followed from upload files
 - Make a master file of users from upload file that followed you back
