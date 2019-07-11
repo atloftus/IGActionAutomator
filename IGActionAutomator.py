@@ -584,46 +584,6 @@ class IGActionAutomator :
         self.runFile.write('Completed.')
 
 
-    def dmUsers(self, hrefs):
-        for picHref in hrefs:
-            self.driver.get('https://www.instagram.com/')
-            time.sleep(random.randint(2, 10))
-            user = picHref.split("/")
-            user = user[3]
-            waiter.find_element(self.driver, "//*[@id=\"react-root\"]/section/nav[1]/div/div/header/div/div[2]/a", by=XPATH).click()
-            time.sleep(random.randint(2, 4))
-            waiter.find_element(self.driver, "/ html / body / div[3] / div / div / div[3] / button[2]",
-                                by=XPATH).click()
-            waiter.find_element(self.driver, "// *[ @ id = \"react-root\"] / section / div[1] / header / div / div[2] / button",
-                                by=XPATH).click()
-            toField = waiter.find_element(self.driver,
-                                "// *[ @ id = \"react-root\"] / section / div[2] / div / div[1] / div / div[2] / input",
-                                by=XPATH)
-            time.sleep(random.randint(2, 5))
-            toField.send_keys(user)
-            time.sleep(random.randint(2, 5))
-            waiter.find_element(self.driver,
-                                "// *[ @ id = \"react-root\"] / section / div[2] / div / div[2] / div[1]",
-                                by=XPATH).click()
-
-            time.sleep(random.randint(2, 5))
-            waiter.find_element(self.driver,
-                                "//*[@id=\"react-root\"]/section/div[1]/header/div/div[2]/div/button",
-                                by=XPATH).click()
-            time.sleep(random.randint(2, 5))
-            messageField = waiter.find_element(self.driver,
-                                               "//*[@id=\"react-root\"]/section/div[2]/div[2]/div/div/div/textarea",
-                                               by=XPATH)
-            time.sleep(random.randint(2, 5))
-            #TODO: Insert custom direct messages here
-            messageField.send_keys("Hey I love your account!")
-            time.sleep(random.randint(2, 5))
-            waiter.find_element(self.driver,
-                                "// *[ @ id = \"react-root\"] / section / div[2] / div[2] / div / div / div[2] / button",
-                                by=XPATH).click()
-            time.sleep(random.randint(30, 100))
-
-
     def compareHrefs(self, hrefs1, hrefs2):
         driver = self.driver
         firstUserArray = []
