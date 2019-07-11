@@ -45,7 +45,7 @@ sourceParamsSepBy|:
     + Hashtags: "hashtagOne|hashtagTwo|hashtagThree|etc"
     + Locations: "locationOne|locationTwo|locationThree|etc"
     + Files: "" (this is empty because it is take from a default location)
-numberOfActions: The number of actions that you wan tot be performed in total for each action type
+numberOfActions: The number of actions that you wan to be performed in total for each action type
 actionVariance: The max/min number of you want your actions to vary
 actionsString: A string argument that is 4 characters long with each character being a 'y' or 'n', each position
 corresponds to the following actions:
@@ -54,6 +54,8 @@ corresponds to the following actions:
     + 3: Following
     + 4: Unfollowing
 commentsSepBy|: A list of all of the comments you wan to with '|' in between each comment
+
+-TODO: Change action string and number of action to come right after username and password
 
 EXAMPLES:
 "coppenmor" "Chicago2019!" 2 "fitness|chicago|health" 10 2 "ynnn" "Great post!|Love it!|Cool"
