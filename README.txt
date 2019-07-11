@@ -33,10 +33,18 @@ REQUIREMENTS (PIP INSTALL):
 
 
 PARAMETER STRUCTURE:
-"username" "password" "sourceType" "sourceParamsSepBy|" "numberOfActions" "actionVariance" "actionsString" "commentsSepBy|"
+"username" "password" "actionsString" "numberOfActions" "actionVariance" "sourceType" "sourceParamsSepBy|" "commentsSepBy|"
 
 username: User intstagram username
 password: User instagram password
+actionsString: A string argument that is 4 characters long with each character being a 'y' or 'n', each position
+corresponds to the following actions:
+    + 1: Liking
+    + 2: Commenting
+    + 3: Following
+    + 4: Unfollowing
+numberOfActions: The number of actions that you wan to be performed in total for each action type
+actionVariance: The max/min number of you want your actions to vary
 sourceType:
     + Hashtags: 1
     + Locations: 2
@@ -45,28 +53,17 @@ sourceParamsSepBy|:
     + Hashtags: "hashtagOne|hashtagTwo|hashtagThree|etc"
     + Locations: "locationOne|locationTwo|locationThree|etc"
     + Files: "" (this is empty because it is take from a default location)
-numberOfActions: The number of actions that you wan to be performed in total for each action type
-actionVariance: The max/min number of you want your actions to vary
-actionsString: A string argument that is 4 characters long with each character being a 'y' or 'n', each position
-corresponds to the following actions:
-    + 1: Liking
-    + 2: Commenting
-    + 3: Following
-    + 4: Unfollowing
 commentsSepBy|: A list of all of the comments you wan to with '|' in between each comment
 
--TODO: Change action string and number of action to come right after username and password
 
 EXAMPLES:
-"coppenmor" "Chicago2019!" 2 "fitness|chicago|health" 10 2 "ynnn" "Great post!|Love it!|Cool"
+"coppenmor" "Chicago2019!" "ynnn" 10 2 1 "fitness|chicago|health" "Great post!|Love it!|Cool"
 
 
 
 TO DO:
-- TODO: Figure out when/which hrefs I pass into all my level 2 methods
-- TODO: Get rid of command line option
-- TODO: Change the way that the main object is created (to the way that IGAccountCurator does it)
-- Create test plan
+-TODO: Figure out when/which hrefs I pass into all my level 2 methods
+-TODO: Create test plan
 - Do test scripts
 - Make a master file that keeps track of every person followed from upload files
 - Make a master file of users from upload file that followed you back

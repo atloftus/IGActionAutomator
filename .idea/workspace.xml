@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f78ef0-2382-46ac-8367-55c4e2378f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IGActionAutomator.py" beforeDir="false" afterPath="$PROJECT_DIR$/IGActionAutomator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="356">
+              <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#3041#3307#0" />
+                <element signature="e#4116#4677#0" />
+                <element signature="e#4718#4969#0" />
+                <element signature="e#5023#5214#0" />
+                <element signature="e#5266#6563#0" />
+                <element signature="e#8117#8137#0" />
+                <element signature="e#11306#14304#0" />
+                <element signature="e#14341#15308#0" />
+                <element signature="e#18908#20560#0" />
+                <element signature="e#18466#19094#0" />
+                <element signature="e#21335#22423#0" />
+                <element signature="e#24380#25240#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +68,8 @@
     <findStrings>
       <find>IGA</find>
       <find>dm</find>
+      <find>myIG</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,11 +85,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2279" />
-    <option name="height" value="1466" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-912" />
+    <option name="y" value="-1105" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IGAccountCurator" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -160,7 +177,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IGActionAutomator.py" />
-      <option name="PARAMETERS" value="&quot;coppenmor&quot; &quot;Chicago2019!&quot; 2 &quot;fitness|chicago|health&quot; 10 2 &quot;ynnn&quot; &quot;Great post!|Love it!|Cool&quot;" />
+      <option name="PARAMETERS" value="&quot;coppenmor&quot; &quot;Chicago2019!&quot; &quot;nnyn&quot; 4 1 1 &quot;fitness|chicago|health&quot; &quot;Great post!|Love it!|Cool&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -182,20 +199,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1519" height="977" extended-state="7" />
+    <frame x="-912" y="-1105" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19494204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22101842" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39881656" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.1332611" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -204,6 +230,37 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>366</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>401</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>398</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>387</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>399</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TESTPLAN.txt">
@@ -215,15 +272,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="356">
+          <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#3041#3307#0" />
+            <element signature="e#4116#4677#0" />
+            <element signature="e#4718#4969#0" />
+            <element signature="e#5023#5214#0" />
+            <element signature="e#5266#6563#0" />
+            <element signature="e#8117#8137#0" />
+            <element signature="e#11306#14304#0" />
+            <element signature="e#14341#15308#0" />
+            <element signature="e#18908#20560#0" />
+            <element signature="e#18466#19094#0" />
+            <element signature="e#21335#22423#0" />
+            <element signature="e#24380#25240#0" />
+          </folding>
         </state>
       </provider>
     </entry>
