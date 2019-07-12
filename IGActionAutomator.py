@@ -142,6 +142,9 @@ class IGActionAutomator :
             return 'new-orleans-louisiana'
         elif (location == 'Denver'):
             return '4599325/denver-colorado'
+        else:
+            #This is the case when the input doesnt match any location
+            return '212988663/new-york-new-york'
 
 
     def debugMethod(self):
