@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="391">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="118" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -72,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1008" />
-    <option name="y" value="-1088" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="921" />
+    <option name="y" value="-877" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -177,7 +177,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1008" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="921" y="-877" width="1936" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19494204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -233,8 +234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="391">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="118" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
