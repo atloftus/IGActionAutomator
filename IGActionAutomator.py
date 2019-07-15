@@ -30,7 +30,8 @@ class IGActionAutomator :
         chrome_options.add_argument("--incognito")
         chrome_options.add_argument("--start-maximized")
         chrome_options.add_argument('--user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"')
-        self.driver = webdriver.Chrome(executable_path="C:\\Users\\AlexanderLoftus\\PycharmProjects\\IGAccountCurator\\venv\\Lib\\chromedriver_win32\\chromedriver.exe", options=chrome_options)
+        pathToChromedriver = os.path.join(os.path.dirname(__file__) + "/venv/Lib/chromedriver_win32/chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path=pathToChromedriver, options=chrome_options)
         self.driver.delete_all_cookies()
 
 
