@@ -57,7 +57,7 @@ commentsSepBy|: A list of all of the comments you wan to with '|' in between eac
 
 
 EXAMPLES:
-"coppenmor" "Chicago2019!" "ynnn" 10 2 1 "fitness|chicago|health" "Great post!|Love it!|Cool"
+"coppenmor" "Chicago2019!" "nnyn" 10 2 3 "fitness|chicago|health" "Great post!|Love it!|Cool"
 
 
 

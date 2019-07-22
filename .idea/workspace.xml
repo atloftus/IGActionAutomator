@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98f78ef0-2382-46ac-8367-55c4e2378f48" name="Default Changelist" comment="" />
+    <list default="true" id="98f78ef0-2382-46ac-8367-55c4e2378f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Upload/update.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IGActionAutomator.py" beforeDir="false" afterPath="$PROJECT_DIR$/IGActionAutomator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="433">
+              <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -22,10 +27,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="355">
+              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#2346#3029#0" />
+                <element signature="e#3063#3724#0" />
+                <element signature="e#3768#3971#0" />
+                <element signature="e#4022#4583#0" />
+                <element signature="e#4624#4875#0" />
+                <element signature="e#4929#5120#0" />
+                <element signature="e#5172#6603#0" />
+                <element signature="e#9125#11537#0" />
               </folding>
             </state>
           </provider>
@@ -65,14 +78,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TESTPLAN.txt" />
+        <option value="$PROJECT_DIR$/Upload/update.txt" />
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/IGActionAutomator.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1008" />
-    <option name="y" value="-1088" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1005" />
+    <option name="y" value="-1085" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -87,17 +101,6 @@
             <path>
               <item name="IGActionAutomator" type="b2602c69:ProjectViewProjectNode" />
               <item name="IGActionAutomator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IGActionAutomator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IGActionAutomator" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IGActionAutomator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IGActionAutomator" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +146,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IGActionAutomator.py" />
-      <option name="PARAMETERS" value="&quot;coppenmor&quot; &quot;Chicago2019!&quot; &quot;nnyn&quot; 4 1 1 &quot;fitness|chicago|health&quot; &quot;Great post!|Love it!|Cool&quot;" />
+      <option name="PARAMETERS" value="&quot;memelover0014&quot; &quot;memelover2019&quot; &quot;nnyn&quot; 10 2 3 &quot;fitness|chicago|health&quot; &quot;Great post!|Love it!|Cool&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -175,18 +178,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <frame x="1005" y="-1085" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19487526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22101842" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2892741" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.1332611" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.25135428" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -201,8 +205,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
-          <line>33</line>
+          <line>285</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>388</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>272</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -215,10 +229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/Upload/update.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -229,12 +243,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="355">
+          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#2346#3029#0" />
+            <element signature="e#3063#3724#0" />
+            <element signature="e#3768#3971#0" />
+            <element signature="e#4022#4583#0" />
+            <element signature="e#4624#4875#0" />
+            <element signature="e#4929#5120#0" />
+            <element signature="e#5172#6603#0" />
+            <element signature="e#9125#11537#0" />
           </folding>
         </state>
       </provider>

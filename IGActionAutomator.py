@@ -277,6 +277,12 @@ class IGActionAutomator :
             tempFile.close()
 
         #TODO: I currently pass in the url to the profile, i need to pass in the url to a photo from this profile
+        picHrefs = []
+        allHrefs = self.driver.find_elements_by_tag_name('a')
+        allHrefs = [elem.get_attribute('href') for elem in allHrefs if
+                    '.com/p/' in elem.get_attribute('href')]
+        [picHrefs.append(href) for href in allHrefs if href not in picHrefs]
+
         if (self.actionString[0] == 'y'):
             self.likePics(href)
         if (self.actionString[1] == 'y'):
