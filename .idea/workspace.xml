@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="-17">
               <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -38,6 +38,7 @@
                 <element signature="e#4624#4875#0" />
                 <element signature="e#4929#5120#0" />
                 <element signature="e#5172#6603#0" />
+                <element signature="e#6739#9084#0" />
                 <element signature="e#9125#11537#0" />
               </folding>
             </state>
@@ -85,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1005" />
-    <option name="y" value="-1085" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1507" />
+    <option name="y" value="-1628" />
+    <option name="width" value="2904" />
+    <option name="height" value="1584" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -178,16 +179,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1005" y="-1085" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="1005" y="-1085" width="1936" height="1056" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22101842" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2892741" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2892741" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.25135428" />
@@ -205,18 +205,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
-          <line>285</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
           <line>388</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
-          <line>272</line>
-          <option name="timeStamp" value="3" />
+          <line>279</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -252,7 +247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="-17">
           <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -263,6 +258,7 @@
             <element signature="e#4624#4875#0" />
             <element signature="e#4929#5120#0" />
             <element signature="e#5172#6603#0" />
+            <element signature="e#6739#9084#0" />
             <element signature="e#9125#11537#0" />
           </folding>
         </state>
