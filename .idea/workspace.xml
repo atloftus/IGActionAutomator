@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98f78ef0-2382-46ac-8367-55c4e2378f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/update.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/update.txt" afterDir="false" />
-    </list>
+    <list default="true" id="98f78ef0-2382-46ac-8367-55c4e2378f48" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="277" selection-start-line="277" selection-end-line="277" />
+            <state relative-caret-position="646">
+              <caret line="314" column="13" lean-forward="true" selection-start-line="314" selection-start-column="13" selection-end-line="314" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#2346#3029#0" />
@@ -92,11 +89,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1008" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2279" />
+    <option name="height" value="1466" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,10 +188,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1008" y="-1088" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18543492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,6 +222,11 @@
           <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
           <line>279</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IGActionAutomator.py</url>
+          <line>294</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -260,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IGActionAutomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        <state relative-caret-position="646">
+          <caret line="314" column="13" lean-forward="true" selection-start-line="314" selection-start-column="13" selection-end-line="314" selection-end-column="13" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#2346#3029#0" />
