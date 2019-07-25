@@ -27,7 +27,7 @@ class IGActionAutomator :
         commentsFull = str(comments)
         self.comments = commentsFull.split('|', 30)
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--incognito")
+        #chrome_options.add_argument("--incognito")
         chrome_options.add_argument("--start-maximized")
         chrome_options.add_argument('--user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"')
         pathToChromedriver = os.path.join(os.path.dirname(__file__) + "/venv/Lib/chromedriver_win32/chromedriver.exe")
